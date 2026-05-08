@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        // assigning var
+        // declaring var
 
         String adj1;
         String noun1;
@@ -16,7 +16,7 @@ public class Main {
         String adj3;
 
         System.out.println("LET'S DESCRIBE A ZOOO!!!!!");
-        // declaring var
+        // assigning var
         System.out.print("Enter a Adjective (desciption): ");
         adj1 = sc.nextLine();
 
