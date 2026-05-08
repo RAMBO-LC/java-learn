@@ -35,7 +35,7 @@ public class Main {
         // LETS DESCRIBE A ZOO!!!
 
         System.out.println("Today i went to a " + adj1 + " Zoo! ");
-        System.out.println("In an exhibit, I sae a " + noun1 + ".");
+        System.out.println("In an exhibit, I saw a " + noun1 + ".");
         System.out.println(noun1 + " was " + adj2 + " and " + verb1 + "!");
         System.out.println("I was " + adj3 + "!");
         sc.close();
