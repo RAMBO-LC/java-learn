@@ -10,9 +10,9 @@ public class inBool {
         boolean isStu = sc.nextBoolean();
 
         if (isStu == true) {
-            System.out.print("you a student");
+            System.out.print("You are a student");
         } else {
-            System.out.print("you not a student");
+            System.out.print("You are NOT a student");
         }
 
         sc.close();
