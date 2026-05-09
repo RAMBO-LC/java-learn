@@ -3,19 +3,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Main shopping Program
+
+        /////// Main shopping Program////////
+
         // declaring Var
         String item;
         double prize;
         int quantity;
-        char currency = '$';
+        String currency = "Rs.";
         double total;
 
         // Assigning var
+
         System.out.print("Item: ");
         item = sc.nextLine();
 
-        System.out.print("Prize: ");
+        System.out.print("Prize(for 1 item): ");
         prize = sc.nextDouble();
 
         System.out.print("Item quantity: ");
