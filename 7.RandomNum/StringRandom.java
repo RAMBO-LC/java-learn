@@ -5,7 +5,7 @@ public class StringRandom {
 
         Random random = new Random();
 
-        String[] names = { "Raj", "Alex", "John", "Rhea" };
+        String[] names = { "Baby", "Betu", "JigglyPuff", "Rhea" };
 
         String randomName = names[random.nextInt(names.length)];
 
