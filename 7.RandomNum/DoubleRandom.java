@@ -7,6 +7,6 @@ public class DoubleRandom {
 
         double number = random.nextDouble();
 
-        System.out.println("Random Double: " + number);
+        System.out.printf("Random Double: %.2f" , number );
     }
 }

@@ -7,6 +7,6 @@ public class FloatRandom {
 
         float number = random.nextFloat();
 
-        System.out.println("Random Float: " + number);
+        System.out.printf("Random Float: %.5f", number);
     }
 }
