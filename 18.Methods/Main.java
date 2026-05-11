@@ -1,23 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-        hbd();
-        hbd();
-        hbd();
-        hbd();
-        hbd();
-        hbd();
-        hbd();
-        hbd();
+        int age = 10;
+
+        if(agever(age)){
+            System.out.println("you may signup!");
+        } else{
+            System.out.println("you must be atleast 18");
+        }
     }
-    static void hbd(){
-        System.out.println("Happy Birthday");
-        System.out.println("Very Happy Birthday");
-        System.out.println(" Birthday dear");
-        System.out.println("so many wishes for for hbd\n");
+
+    static boolean agever(int age){
+        if (age >=18){
+            return true;
+        } else {
+            return false;
+        }
+
     }
 }
 
 //Method => a block of reusable code
-//    that is executed when called ().
-// D . R . Y Principle 
-// Don't Repeat Yourself 
+// that is executed when called ()
