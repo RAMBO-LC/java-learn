@@ -1,9 +1,13 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException 
+    {
+        int max = 10;
 
-        while (1 == 1) {
-            System.out.println("This is a Infinite loop");
+        for (int i =  max; i > 0; i--) {
+            System.out.println(i);
+            Thread.sleep(1000);
         }
+        System.out.println("LAUNCH!");
 
     }
 }
