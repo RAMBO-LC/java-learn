@@ -3,6 +3,8 @@ public class Main {
 
         while (1 == 1) {
             System.out.println("This is a Infinite loop");
+        //// this will run the loop infinatly cause 
+        //// the condition will be always satisfied    
         }
 
     }
